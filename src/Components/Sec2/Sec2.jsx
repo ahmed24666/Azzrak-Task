@@ -13,7 +13,7 @@ const Sec2 = () => {
             <div className="items">
                 <div className="item">
                     <div className="num gradient-text">
-                        <div className="span gradient-text">1</div>
+                        <div className="span">1</div>
                     </div>
                     <div className="text">
                         <div className="top">
@@ -24,7 +24,7 @@ const Sec2 = () => {
                 </div>
                 <div className="item">
                     <div className="num gradient-text">
-                        <div className="span gradient-text">2</div>
+                        <div className="span">2</div>
                     </div>
                     <div className="text">
                         <div className="top">
@@ -35,7 +35,7 @@ const Sec2 = () => {
                 </div>
                 <div className="item">
                     <div className="num gradient-text">
-                        <div className="span gradient-text">3</div>
+                        <div className="span">3</div>
                     </div>
                     <div className="text">
                         <div className="top">
