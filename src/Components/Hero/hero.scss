@@ -5,7 +5,7 @@
     padding: 0 20px;
 }
   background-color: #02020298;
-  background: url("./../../../public//images/Group\ 93.png") ;
+  background: url("./../../../public/images/Group-93.avif") ;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0 70px;
@@ -16,7 +16,7 @@
   gap: 15px;
   position: relative;
   @media (max-width: 1100px) {
-    background:linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.35)), url("./../../../public//images/Group\ 93.png") ;
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.35)), url("./../../../public/images/Group-93.avif") ;
     background-position: center;
   }
   @media (max-width: 850px) {
