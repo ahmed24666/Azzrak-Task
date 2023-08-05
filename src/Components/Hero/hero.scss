@@ -27,8 +27,8 @@
     font-size: 60px;
     font-weight: 800;
     color: white;
-    @media (min-width: 1440px) {
-      font-size: 80px;      
+    @media (min-width: 1441px) {
+      font-size: 65px;      
     }
     @media (max-width: 767px) {
       font-size: 40px;
@@ -42,8 +42,8 @@
     gap: 10px;
     font-weight: 500;
     color: white;
-    @media (min-width: 1440px) {
-      font-size: 65px;
+    @media (min-width: 1441px) {
+      font-size: 55px;
       gap: 15px;
     }
     @media (max-width: 767px) {
@@ -57,8 +57,8 @@
     align-items: center;
     font-weight: 700;
     color: white;
-    @media (min-width: 1440px) {
-      font-size: 65px;
+    @media (min-width: 1441px) {
+      font-size: 55px;
     }
     @media (max-width: 767px) {
       font-size: 30px;
@@ -70,7 +70,7 @@
     margin: 25px 0;
     img{
       cursor: pointer;
-      @media (min-width: 1440px) {
+      @media (min-width: 1441px) {
         width: 35px;
         height: 35px;
       }
@@ -96,7 +96,7 @@
       font-weight: 500;
       font-size: 18px;
       gap: 10px;
-      @media (min-width: 1440px) {
+      @media (min-width: 1441px) {
         font-size: 24px;
       }
       .arrow {
@@ -105,7 +105,7 @@
         justify-content: start;
         align-items: center;
         color: #961062;
-        @media (min-width: 1440px) {
+        @media (min-width: 1441px) {
           font-size: 26px;
         }
         
@@ -124,8 +124,9 @@
     flex-direction: column;
     gap: 25px;
     img{
+      height: 70px;
       @media (max-width: 850px) {
-        height: 70px;
+        height: 50px;
       }
     }
     p{

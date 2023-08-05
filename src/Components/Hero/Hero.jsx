@@ -57,7 +57,10 @@ const Hero = () => {
         </span>
       </motion.div>
       <div className="scroll ">
-        <img src="/images/mouse.png" className='fade-in' alt="" />
+        <a href="#scrollto">
+
+        <img src="/images/mouse.png" className='bounce' alt="" />
+        </a>
         <p>Explore More</p>
       </div>
     </div>

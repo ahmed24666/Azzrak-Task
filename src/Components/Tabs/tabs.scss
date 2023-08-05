@@ -26,8 +26,8 @@
             padding: 10px 15px;
             border-radius: 3px;
             font-size: 25px;
-            @media (min-width: 1440px) {
-                font-size: 30px;
+            @media (min-width: 1441px) {
+                font-size: 27px;
             }
             @media (max-width: 850px) {
                 font-size: 22px;
@@ -94,11 +94,11 @@
         }
     }
     p{
-        font-size: 30px;
+        font-size: 27px;
         font-weight: 400;
         text-align: center;
-        @media (min-width: 1440px) {
-            font-size: 35px;
+        @media (min-width: 1441px) {
+            font-size: 31px;
           }
           @media (max-width: 850px) {
             font-size: 25px;

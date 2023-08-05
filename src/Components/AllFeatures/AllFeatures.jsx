@@ -11,7 +11,7 @@ const AllFeatures = () => {
   const [ref2, inView2] = useInView();
   const [ref3, inView3] = useInView();
   return (
-    <motion.div
+    <motion.div id='scrollto'
     initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.5, ease: "backInOut", delay: 0 }}
     className='AllFeatures'>
       <motion.p
