@@ -123,12 +123,22 @@
     align-items: center;
     flex-direction: column;
     gap: 25px;
-    img{
-      height: 70px;
+    .mouse{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 80px;
+      color: #C1C0C0;
+      cursor: pointer;
+      transition: 0.5s;
+      &:hover{
+        color: #961062;
+      }
       @media (max-width: 850px) {
-        height: 50px;
+        font-size: 60px;
       }
     }
+    
     p{
         font-size: 25px;
         text-align: center;

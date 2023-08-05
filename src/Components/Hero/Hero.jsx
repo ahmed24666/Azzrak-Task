@@ -1,9 +1,15 @@
 import React from 'react'
 import './hero.scss'
 import { BsArrowRight } from 'react-icons/bs';
+import { BsMouse } from 'react-icons/bs';
 import { motion } from 'framer-motion';
 
-const Hero = () => {
+const Hero = ({aboutRef}) => {
+  const AllFeatures = document.getElementById("scrollto");
+  const handleClick = () => {
+    aboutRef.current.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div className='Hero'>
       <motion.h1
@@ -56,11 +62,10 @@ const Hero = () => {
           </div>
         </span>
       </motion.div>
-      <div className="scroll ">
-        <a href="#scrollto">
-
-        <img src="/images/mouse.png" className='bounce' alt="" />
-        </a>
+      <div className="scroll">
+        <div className="bounce mouse" onClick={()=>handleClick()}>
+        <BsMouse/>
+        </div>
         <p>Explore More</p>
       </div>
     </div>

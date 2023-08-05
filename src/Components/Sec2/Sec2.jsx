@@ -2,9 +2,10 @@ import React from 'react'
 import './sec.scss'
 import { motion} from "framer-motion";
 
-const Sec2 = () => {
+const Sec2 = ({aboutRef}) => {
     return (
         <motion.div
+        ref={aboutRef}
         initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.5, ease: "backInOut", delay: 0 }}
         className='Sec2'>
             <div className="head gradient-text">
